@@ -5,7 +5,7 @@ library(dplyr)
 library(Routliers)
 
 
-setwd("/Users/hw817/Desktop/python/Data list_post processed")
+setwd("/Users/hw817/Files_folder")
 file_list<-list.files()
 
 Tumortype<-c("HD","Br","Cl","Lu","Li","Pa")

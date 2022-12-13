@@ -12,7 +12,7 @@ library(ggplot2)
 library(tsne)
 library(plotly)
 
-setwd("/Users/hw817/Dropbox (Partners HealthCare)/19_MGH_HMS_Projects/04_Exoseek/Marker lists/Human protein atlas_elevated in cancer/8 Cancers")
+setwd("/Users/hw817/8 Cancers")
 
 
 # Cancer specific FPKM

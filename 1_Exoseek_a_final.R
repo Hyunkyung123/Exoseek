@@ -4,7 +4,7 @@ library(xlsx)
 library(plotrix)
 library(dplyr)
 
-setwd("/Users/hw817/Dropbox (Partners HealthCare)/19_MGH_HMS_Projects/04_Exoseek/Exoseek/R code/Test file_1")
+setwd("/Users/hw817/Test file_1")
 
 FITC_A1_1<-c()
 FITC_A2_1<-c()

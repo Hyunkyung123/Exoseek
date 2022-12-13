@@ -4,7 +4,7 @@ library(plotrix)
 library(dplyr)
 library(Routliers)
 
-setwd("/Users/hw817/Dropbox (Partners HealthCare)/19_MGH_HMS_Projects/04_Exoseek/Exoseek/R code/Test file_1")
+setwd("/Users/hw817/Test file_1")
 
 name<-read.xlsx(file='plate info.xlsx', 1)
 Raw_F<-read.xlsx(file='plate info.xlsx', 2)

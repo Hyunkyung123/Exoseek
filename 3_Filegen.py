@@ -238,17 +238,17 @@ def main():
 
     # This is the name of the folder we will copy files from. You can put one Excel file in here at a time if you want, or
     # put every file you have in here and the code will split all of them into new files.
-    folder_to_scan = "JS"
+    folder_to_scan = "Files"
 
     # This is the name of the folder we will save the new Excel files to.
-    save_location = "JS_folder"
+    save_location = "Files_folder"
 
 
     # MATRIX READING METHOD 1 (12 x 8 matrix):
-    #matrix_loading_method = generate_filenames_automatically
+    matrix_loading_method = generate_filenames_automatically
 
     # MATRIX READING METHOD 2 (individual 96 well):
-    matrix_loading_method = read_matrix_for_filenames
+    #matrix_loading_method = read_matrix_for_filenames
 
     # This code will just create the save location if it doesn't exist already.
     if not os.path.exists(save_location):
